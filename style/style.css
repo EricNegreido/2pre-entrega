@@ -1,3 +1,9 @@
 *{
     margin: 0;
 }
+img{
+    width: 80%;
+}
+.carta-presentacion{
+    border: 1px solid black;
+}
