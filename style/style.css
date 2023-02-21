@@ -7,13 +7,18 @@
 /* Mobile*/
 
 
+/* NAVBAR */
 .header .navbar{
     background-color: rgba(69, 63, 57, 0.8);
+    height: 10vh;
+}
+.header .navbar-collapse{
+    background-color: rgba(69, 63, 57);
 }
 .header .navbar .color-nav{
     color: #fff;
 }
-.galeria-img{
+.img-inicio{
     background-image:url(../img/fondo.jpg);
     background-position: center;
     background-attachment: fixed;
@@ -29,7 +34,7 @@
     color: #fff;
 
 }
-.galeria-img p{
+.img-inicio p{
     width: 50%;
 }
 
@@ -68,11 +73,12 @@
     background-size: cover;
 }
 
+/* FOOTER */
 .footer{
     border-top:solid 1px black;
     height: 10vh;
     padding-top: 1rem;
-    background-color: rgba(69, 63, 57);;
+    background-color: rgba(69, 63, 57);
 }
 
 .footer .nav-item i{
@@ -139,3 +145,83 @@
 .galeria-img p{
     width: 50%;
 }
+/* contacto */
+
+.main-contacto{
+    display: flex;
+    width: 100%;
+}
+.img-contacto{
+    background-color: #212120;
+    width: 50%;
+    height: 80vh;
+    display: none;
+}
+
+.formulario-contacto{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    border: solid 1px black;
+    width: 100%;
+
+}
+.formulario-contacto .formulario{
+    width: 80%;
+}
+
+.formulario-contacto label, input{
+    display: block;
+    padding: 5px;
+}
+
+.formulario-contacto input:focus{
+    outline: solid 2px rgba(69, 63, 57);
+}
+.formulario-contacto textarea:focus{
+    outline: solid 2px rgba(69, 63, 57);
+}
+
+.formulario-contacto input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+}
+
+.formulario-contacto textarea{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.btn-login{
+    border:none;
+    padding: 15px 0;
+    width: 100%;
+    font-weight: bold;
+    display: block;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+.btn-login:hover{
+    background-color: #333;
+}
+
+
+
+
+
+
