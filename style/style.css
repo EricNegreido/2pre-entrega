@@ -86,7 +86,7 @@
 }
 
 .carrusel .slide1{
-    background-image: url(/img/cervezas.jpg);
+    background-image: url(../img/cervezas.jpg);
     background-repeat:no-repeat;
     background-size:cover ;
     background-position: center;
@@ -97,7 +97,7 @@
 
 }
 .carrusel .slide2{
-    background-image: url(/img/mojitos.jpg);
+    background-image: url(../img/mojitos.jpg);
     background-repeat:no-repeat;
     background-size:cover ;
     background-position: center;
@@ -108,7 +108,7 @@
 
 }
 .carrusel .slide3{
-    background-image: url(/img/licuados.jpg);
+    background-image: url(../img/licuados.jpg);
     background-repeat:no-repeat;
     background-size:cover ;
     background-position: center;
