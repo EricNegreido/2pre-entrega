@@ -13,13 +13,19 @@
 /* NAVBAR */
 .header .navbar{
     background-color: rgba(69, 63, 57, 0.8);
-    height: 10vh;
+    height: 12vh;
 
 }
 .header{
 
     animation-name: delayNav;
     animation-duration: 2.5s;
+}
+.header .logo img{
+    border-radius:60%;
+    width: 90px;
+    margin: 0;
+    padding:0 5px;
 }
 @keyframes delayNav{
     0%{
@@ -123,10 +129,7 @@
 .container-cervezas .carousel-item{
     height: 60vh;
 }
-.carrusel .carrusel-img{
-    height: 50vh;
-    background-size: cover;
-}
+
 
 .carrusel .slide1{
     background-image: url(../img/cervezas.jpg);
@@ -148,7 +151,6 @@
     text-align: center;
     color: #fff;
     opacity: 0.9;
-
     padding-top: 12rem;
 
 }
@@ -171,6 +173,11 @@
     background-color: rgb(3,3,3,.2);
 }
 /* FONDO CERVEZA */
+
+.main-cerveza{
+    padding: 5px 15px;
+
+}
 .img-cerveza{
     background-image:url(../img/cerveza.jpg);
     background-position: center;
@@ -190,6 +197,31 @@
 .galeria-img p{
     width: 50%;
 }
+.galeria-cerveza .cerveza1{
+    height: 300px;
+    background-image: url(../img/negra.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.galeria-cerveza .cerveza2{
+    height: 300px;
+    background: url(../img/roja.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.galeria-cerveza .cerveza3{
+    height: 300px;
+    background: url(../img/rubia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
 
 /* CONTACTO*/
 
