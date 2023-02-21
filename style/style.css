@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 *{
     margin: 0;
     font-size: .9rem;
+    font-family:'Roboto', sans-serif;
     
 }
 
@@ -42,8 +45,8 @@
 .main-carta .carta-presentacion{
     color: #fff;
     background: rgba(69, 63, 57);
-    width: 200px;
-    height: 300px;
+    width: 300px;
+    height: 350px;
     margin: 2px;
     border-radius: 10px;
     padding: 0;
@@ -57,7 +60,7 @@
 }
 .main-carta .carta-presentacion img{
     width:100%;
-    height: 20vh;
+    height: 30vh;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 
@@ -84,11 +87,15 @@
 .footer .nav-item i{
     font-size:2rem;
 }
+.footer .color-nav:hover{
+    color: #fff;
+}
 
 .footer .color-nav{
     color: #212120
 }
 
+/* CARRUSEL INDEX */
 .container-cervezas .carousel-item{
     height: 60vh;
 }
@@ -100,9 +107,9 @@
     background-position: center;
     height: 50vh;
     text-align: center;
-    color: #444;
+    color: #fff;
     padding-top: 12rem;
-
+    opacity: 0.9;
 }
 .carrusel .slide2{
     background-image: url(../img/mojitos.jpg);
@@ -111,7 +118,9 @@
     background-position: center;
     height: 50vh;
     text-align: center;
-    color: #444;
+    color: #fff;
+    opacity: 0.9;
+
     padding-top: 12rem;
 
 }
@@ -122,10 +131,14 @@
     background-position: center;
     height: 50vh;
     text-align: center;
-    color: #444;
+    color: #fff;
     padding-top: 12rem;
+    opacity: 0.9;
 }
-
+.carrusel h3{
+    font-size: 50px;
+}
+/* FONDO CERVEZA */
 .img-cerveza{
     background-image:url(../img/cerveza.jpg);
     background-position: center;
@@ -145,7 +158,8 @@
 .galeria-img p{
     width: 50%;
 }
-/* contacto */
+
+/* CONTACTO*/
 
 .main-contacto{
     display: flex;
@@ -161,7 +175,7 @@
     align-items: center;
     flex-direction: column;
     height: 80vh;
-    border: solid 1px black;
+    border: solid 1px rgba(69, 63, 57);
     width: 100%;
 
 }
@@ -209,15 +223,23 @@
     border-radius: 5px;
     text-transform: uppercase;
     cursor: pointer;
-    background-color: #000;
+    background-color: rgba(69, 63, 57);
     color: #fff;
 }
 .btn-login:hover{
-    background-color: #333;
+    background-color: #222;
 }
 
+/* TABLETS */
 @media screen and (min-width:700px) {
 
+    *{
+        font-size: 1rem ;
+    }
+    .main-principal, .sobre-nosotros, .carrusel, .main-cont .main-carta, .main-cerveza{
+        width: 80%;
+        margin: 0 auto;
+    }
     .img-contacto{
         background-color: #212120;
         width: 40%;
@@ -232,9 +254,18 @@
     }
 }
 
-
-@media screen and (min-width:1100px) {
-
+/* DESKTOP */
+@media screen and (min-width:992px) {
+    *{
+        font-size: 1.1rem ;
+    }
+    .main-principal, .sobre-nosotros, .carrusel, .main-cont .main-carta, .main-cerveza{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .header .navbar-collapse{
+        background-color:transparent;
+    }
     .img-contacto{
         width: 50%;
         height: 80vh;
@@ -243,7 +274,7 @@
         width: 50%;
     }
     .main-contacto{
-        padding: 20px;
+        padding: 20px 10px;
     }
 }
 
