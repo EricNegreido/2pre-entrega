@@ -1,6 +1,7 @@
 *{
     margin: 0;
-    font-size: 1rem;
+    font-size: .9rem;
+    
 }
 
 /* Mobile*/
@@ -15,6 +16,7 @@
 .galeria-img{
     background-image:url(../img/fondo.jpg);
     background-position: center;
+    background-attachment: fixed;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -75,7 +77,43 @@
     font-size:2rem;
 }
 
+.footer .color-nav{
+    color: #3f3936
+}
+
 .container-cervezas .carousel-item{
     height: 60vh;
 }
 
+.carrusel .slide1{
+    background-image: url(/img/cervezas.jpg);
+    background-repeat:no-repeat;
+    background-size:cover ;
+    background-position: center;
+    height: 50vh;
+    text-align: center;
+    color: #fff;
+    padding-top: 12rem;
+
+}
+.carrusel .slide2{
+    background-image: url(/img/mojitos.jpg);
+    background-repeat:no-repeat;
+    background-size:cover ;
+    background-position: center;
+    height: 50vh;
+    text-align: center;
+    color: #fff;
+    padding-top: 12rem;
+
+}
+.carrusel .slide3{
+    background-image: url(/img/licuados.jpg);
+    background-repeat:no-repeat;
+    background-size:cover ;
+    background-position: center;
+    height: 50vh;
+    text-align: center;
+    color: #fff;
+    padding-top: 12rem;
+}
