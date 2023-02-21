@@ -1,9 +1,76 @@
 *{
     margin: 0;
+    font-size: 1rem;
 }
-img{
-    width: 80%;
+
+/* Mobile*/
+
+
+.header .navbar{
+    background-color: rgba(69, 63, 57, 0.8);
 }
-.carta-presentacion{
-    border: 1px solid black;
+.header .navbar .color-nav{
+    color: #fff;
+}
+.galeria-img{
+    background-image:url(../img/fondo.jpg);
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+
+}
+.galeria-img p{
+    width: 50%;
+}
+
+/* carta sin alcohol, con alcohol */
+.main-carta .carta-presentacion{
+    color: #fff;
+    background: rgba(69, 63, 57, 0.8);
+    width: 200px;
+    height: 350px;
+    margin: 2px;
+    border-radius: 10px;
+    padding: 0;
+    border: solid 1px white;
+    font-weight: 400px;
+
+}
+.main-carta .carta-presentacion a{
+    text-decoration: none;
+    color: #fff;
+}
+.main-carta .carta-presentacion img{
+    width:100%;
+    height: 20vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.main-carta .carta-presentacion p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.carrusel .carrusel-img{
+    width: 100%;
+    height: 30vh;
+}
+
+.footer{
+    border-top:solid 1px black;
+    height: 5vh;
+    line-height: 5vh;
+}
+
+.footer .nav-item i{
+    font-size:2rem;
 }
